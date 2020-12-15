@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <script>
-      var d = document.lastModified;
+      var d = new SimpleDateFormat("dd-MM-yyyy").format(
+      new Date(new document.lastModified()
+      );
     </script>
   </head>
   <body>
